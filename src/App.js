@@ -30,6 +30,10 @@ function App() {
         }
       ]
     },
+    {
+      path: "*",
+      element: <div>Sorry, you are in the wrong place✌️</div>
+    }
   ]);
 
   return (
